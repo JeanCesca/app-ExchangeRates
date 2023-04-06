@@ -13,7 +13,17 @@
 		0F54080629DDCA7600D936DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F54080529DDCA7600D936DC /* Preview Assets.xcassets */; };
 		0F54081029DDCB4F00D936DC /* RatesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54080F29DDCB4F00D936DC /* RatesAPI.swift */; };
 		0F54081329DDCC2B00D936DC /* RatesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081229DDCC2B00D936DC /* RatesRouter.swift */; };
-		0F54081529DDCC3600D936DC /* CurrencyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081429DDCC3600D936DC /* CurrencyRouter.swift */; };
+		0F54081529DDCC3600D936DC /* SymbolsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081429DDCC3600D936DC /* SymbolsRouter.swift */; };
+		0F54081B29DDEEA600D936DC /* FluctuationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081A29DDEEA600D936DC /* FluctuationResponse.swift */; };
+		0F54081D29DDF3BA00D936DC /* SymbolsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081C29DDF3BA00D936DC /* SymbolsResponse.swift */; };
+		0F54081F29DDF73400D936DC /* TimeseriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081E29DDF73400D936DC /* TimeseriesResponse.swift */; };
+		0F54082129DDF9F700D936DC /* RateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082029DDF9F700D936DC /* RateStore.swift */; };
+		0F54082329DDFCA200D936DC /* SymbolStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082229DDFCA200D936DC /* SymbolStore.swift */; };
+		0F54082629DE023000D936DC /* DataProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082529DE023000D936DC /* DataProviderManager.swift */; };
+		0F54082929DE02EB00D936DC /* FluctuationDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082829DE02EB00D936DC /* FluctuationDataProvider.swift */; };
+		0F54082B29DE1A5000D936DC /* TimeseriesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082A29DE1A5000D936DC /* TimeseriesDataProvider.swift */; };
+		0F54082E29DE1C1800D936DC /* SymbolsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082D29DE1C1800D936DC /* SymbolsDataProvider.swift */; };
+		0F54083029DF1CB000D936DC /* StoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082F29DF1CB000D936DC /* StoreProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +35,17 @@
 		0F54080529DDCA7600D936DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F54080F29DDCB4F00D936DC /* RatesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesAPI.swift; sourceTree = "<group>"; };
 		0F54081229DDCC2B00D936DC /* RatesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesRouter.swift; sourceTree = "<group>"; };
-		0F54081429DDCC3600D936DC /* CurrencyRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRouter.swift; sourceTree = "<group>"; };
+		0F54081429DDCC3600D936DC /* SymbolsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsRouter.swift; sourceTree = "<group>"; };
+		0F54081A29DDEEA600D936DC /* FluctuationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationResponse.swift; sourceTree = "<group>"; };
+		0F54081C29DDF3BA00D936DC /* SymbolsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsResponse.swift; sourceTree = "<group>"; };
+		0F54081E29DDF73400D936DC /* TimeseriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeseriesResponse.swift; sourceTree = "<group>"; };
+		0F54082029DDF9F700D936DC /* RateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateStore.swift; sourceTree = "<group>"; };
+		0F54082229DDFCA200D936DC /* SymbolStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolStore.swift; sourceTree = "<group>"; };
+		0F54082529DE023000D936DC /* DataProviderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderManager.swift; sourceTree = "<group>"; };
+		0F54082829DE02EB00D936DC /* FluctuationDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationDataProvider.swift; sourceTree = "<group>"; };
+		0F54082A29DE1A5000D936DC /* TimeseriesDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeseriesDataProvider.swift; sourceTree = "<group>"; };
+		0F54082D29DE1C1800D936DC /* SymbolsDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsDataProvider.swift; sourceTree = "<group>"; };
+		0F54082F29DF1CB000D936DC /* StoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0F5407FD29DDCA7400D936DC /* ExchangeRateApp.swift */,
+				0F54080D29DDCB1E00D936DC /* NetworkRepository */,
 				0F54080C29DDCB1800D936DC /* DataProviders */,
 				0F5407FF29DDCA7400D936DC /* ContentView.swift */,
 				0F54080129DDCA7600D936DC /* Assets.xcassets */,
@@ -79,7 +100,10 @@
 		0F54080C29DDCB1800D936DC /* DataProviders */ = {
 			isa = PBXGroup;
 			children = (
-				0F54080D29DDCB1E00D936DC /* NetworkRepository */,
+				0F54082529DE023000D936DC /* DataProviderManager.swift */,
+				0F54082D29DE1C1800D936DC /* SymbolsDataProvider.swift */,
+				0F54082829DE02EB00D936DC /* FluctuationDataProvider.swift */,
+				0F54082A29DE1A5000D936DC /* TimeseriesDataProvider.swift */,
 			);
 			path = DataProviders;
 			sourceTree = "<group>";
@@ -87,6 +111,8 @@
 		0F54080D29DDCB1E00D936DC /* NetworkRepository */ = {
 			isa = PBXGroup;
 			children = (
+				0F54081929DDEE8D00D936DC /* Response */,
+				0F54081629DDECAA00D936DC /* Stores */,
 				0F54081129DDCC1C00D936DC /* Routers */,
 				0F54080E29DDCB3000D936DC /* APIs */,
 			);
@@ -105,9 +131,29 @@
 			isa = PBXGroup;
 			children = (
 				0F54081229DDCC2B00D936DC /* RatesRouter.swift */,
-				0F54081429DDCC3600D936DC /* CurrencyRouter.swift */,
+				0F54081429DDCC3600D936DC /* SymbolsRouter.swift */,
 			);
 			path = Routers;
+			sourceTree = "<group>";
+		};
+		0F54081629DDECAA00D936DC /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				0F54082029DDF9F700D936DC /* RateStore.swift */,
+				0F54082229DDFCA200D936DC /* SymbolStore.swift */,
+				0F54082F29DF1CB000D936DC /* StoreProtocol.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		0F54081929DDEE8D00D936DC /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0F54081A29DDEEA600D936DC /* FluctuationResponse.swift */,
+				0F54081C29DDF3BA00D936DC /* SymbolsResponse.swift */,
+				0F54081E29DDF73400D936DC /* TimeseriesResponse.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,11 +226,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F54081529DDCC3600D936DC /* CurrencyRouter.swift in Sources */,
+				0F54081D29DDF3BA00D936DC /* SymbolsResponse.swift in Sources */,
+				0F54081529DDCC3600D936DC /* SymbolsRouter.swift in Sources */,
 				0F54081329DDCC2B00D936DC /* RatesRouter.swift in Sources */,
+				0F54082629DE023000D936DC /* DataProviderManager.swift in Sources */,
 				0F54080029DDCA7400D936DC /* ContentView.swift in Sources */,
+				0F54082129DDF9F700D936DC /* RateStore.swift in Sources */,
 				0F5407FE29DDCA7400D936DC /* ExchangeRateApp.swift in Sources */,
+				0F54082329DDFCA200D936DC /* SymbolStore.swift in Sources */,
+				0F54082E29DE1C1800D936DC /* SymbolsDataProvider.swift in Sources */,
 				0F54081029DDCB4F00D936DC /* RatesAPI.swift in Sources */,
+				0F54082B29DE1A5000D936DC /* TimeseriesDataProvider.swift in Sources */,
+				0F54083029DF1CB000D936DC /* StoreProtocol.swift in Sources */,
+				0F54081B29DDEEA600D936DC /* FluctuationResponse.swift in Sources */,
+				0F54081F29DDF73400D936DC /* TimeseriesResponse.swift in Sources */,
+				0F54082929DE02EB00D936DC /* FluctuationDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

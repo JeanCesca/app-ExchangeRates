@@ -7,18 +7,20 @@
 
 import SwiftUI
 
-struct Fluctuation: Identifiable {
+struct Fluctuation: Identifiable, Equatable {
     let id = UUID()
     var symbol: String
     var change: Double
     var changePct: Double
     var endRate: Double
-
 }
 
 class FluctuationViewModel: ObservableObject {
-    
+        
     @Published var searchText: String = ""
+    @Published var color: Color = .purple
+    
+    @Published var periodSelected: PeriodSelected = .oneDay
         
     @Published var fluctuations: [Fluctuation] = [
         Fluctuation(symbol: "USD", change: 0.0008, changePct: 0.4892, endRate: 0.92389),
@@ -34,6 +36,8 @@ class FluctuationViewModel: ObservableObject {
             $0.endRate.formatter(decimalPlaces: 2).contains(searchText.uppercased())
         }
     }
+    
+    
 }
 
 struct FluctuationView: View {
@@ -41,6 +45,8 @@ struct FluctuationView: View {
     @StateObject private var vm = FluctuationViewModel()
     
     @State private var isNegative: Bool = false
+    @State private var isPresentedBaseCurrencyFilter: Bool = false
+    @State private var isPresentedMultiCurrencyFilter: Bool = false
     
     var searchResult: [Fluctuation] {
         if vm.searchText.isEmpty {
@@ -54,7 +60,6 @@ struct FluctuationView: View {
         NavigationStack {
             VStack {
                 baseCurrencyPeriodFilterView
-                listHeader
                 fluctuationList
             }
             .searchable(text: $vm.searchText)
@@ -63,9 +68,12 @@ struct FluctuationView: View {
             .toolbar {
                 ToolbarItem {
                     Button {
-                        print("Filtrar moedas")
+                        isPresentedMultiCurrencyFilter.toggle()
                     } label: {
                         Image(systemName: "slider.horizontal.3")
+                    }
+                    .sheet(isPresented: $isPresentedMultiCurrencyFilter) {
+                        MultiCurrencyFilterView()
                     }
                 }
             }
@@ -73,81 +81,26 @@ struct FluctuationView: View {
     }
     
     private var baseCurrencyPeriodFilterView: some View {
-        HStack(alignment: .center, spacing: 16) {
-            ButtonView(action: {
-                print("Filtrar moeda base")
-            }, title: "BRL", color: .white, font: .callout, isUnderline: false)
-            
-            ButtonView(action: {
-                print("Filtrar moeda base")
-            }, title: "1 dia", color: .accentColor, font: .callout, isUnderline: true)
-            
-            ButtonView(action: {
-                
-            }, title: "7 dias", color: .secondary, font: .callout, isUnderline: true)
-            
-            ButtonView(action: {
-                
-            }, title: "1 mês", color: .secondary, font: .callout, isUnderline: true)
-            
-            ButtonView(action: {
-                
-            }, title: "6 meses", color: .secondary, font: .callout, isUnderline: true)
-            
-            ButtonView(action: {
-                
-            }, title: "1 ano", color: .secondary, font: .callout, isUnderline: true)
-
+        VStack {
+            HStack(alignment: .center, spacing: 16) {
+                SymbolButton(action: {
+                    isPresentedBaseCurrencyFilter.toggle()
+                }, title: "BRL", color: .white)
+                .sheet(isPresented: $isPresentedBaseCurrencyFilter) {
+                    BaseCurrencyView()
+                }
+                FluctuationPeriodButtons(selection: $vm.periodSelected)
+            }
         }
-    }
-    
-    private var listHeader: some View {
-        HStack {
-            Text("SYMBOL")
-            Spacer()
-            Spacer()
-            Text("EndRate")
-            Spacer()
-            Text("Change")
-            Spacer()
-            Text("ChangePct")
-        }
-        .padding()
-        .font(.callout)
-        .fontWeight(.regular)
     }
     
     private var fluctuationList: some View {
         List {
-            ForEach(searchResult) { data in
-                HStack {
-                    
-                    Text("\(data.symbol) / BRL")
-                        .font(.headline)
-                        .bold()
-                        .fontWeight(.regular)
-                    
-                    Spacer()
-                    Spacer()
-                    Spacer()
-
-                    Text(data.endRate.formatter(decimalPlaces: 2))
-                        .font(.callout)
-                        .bold()
-                    
-                    Spacer()
- 
-                    Text(data.change.formatter(decimalPlaces: 4, changeSymbol: true))
-                        .font(.callout)
-                        .bold()
-                        .foregroundColor(data.change.color)
-
-                    Spacer()
-
-                    Text("(\(data.changePct.toPercentage(changeSymbol: true)))")
-                        .font(.callout)
-                        .bold()
-                        .foregroundColor(data.changePct.color)
+            ForEach(searchResult) { fluctuation in
+                NavigationLink {
+                    FluctuationDetailView(baseCurrency: "BRL", fluctuation: fluctuation)
+                } label: {
+                    FluctuationRowView(fluctuation: fluctuation)
                 }
             }
         }

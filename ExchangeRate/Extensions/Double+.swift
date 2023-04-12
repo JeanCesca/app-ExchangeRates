@@ -49,7 +49,7 @@ extension Double {
         if self.sign == .minus {
             return .red
         } else {
-            return .green
+            return Color("positive")
         }
     }
 }

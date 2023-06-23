@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct ComparationGridButtonView: View {
+struct FluctuationDetailGridButtonView: View {
 
-    @State var fluctuation: Fluctuation
+    @State var fluctuation: RateFluctuation
     @Binding var baseCurrency: String
 
     var body: some View {
@@ -40,7 +40,7 @@ struct ComparationGridButtonView: View {
 
 struct ComparationGridButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        ComparationGridButtonView(fluctuation: Fluctuation(
+        FluctuationDetailGridButtonView(fluctuation: RateFluctuation(
             symbol: "BRL",
             change: 0.2390,
             changePct: 0.9023,

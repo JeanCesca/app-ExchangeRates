@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1698FD29E7833C00000595 /* RatesFluctuationRowTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1698FC29E7833C00000595 /* RatesFluctuationRowTitleView.swift */; };
 		0F5407FE29DDCA7400D936DC /* ExchangeRateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5407FD29DDCA7400D936DC /* ExchangeRateApp.swift */; };
 		0F54080029DDCA7400D936DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5407FF29DDCA7400D936DC /* ContentView.swift */; };
 		0F54080229DDCA7600D936DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F54080129DDCA7600D936DC /* Assets.xcassets */; };
@@ -14,35 +15,45 @@
 		0F54081029DDCB4F00D936DC /* RatesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54080F29DDCB4F00D936DC /* RatesAPI.swift */; };
 		0F54081329DDCC2B00D936DC /* RatesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081229DDCC2B00D936DC /* RatesRouter.swift */; };
 		0F54081529DDCC3600D936DC /* SymbolsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081429DDCC3600D936DC /* SymbolsRouter.swift */; };
-		0F54081B29DDEEA600D936DC /* FluctuationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081A29DDEEA600D936DC /* FluctuationResponse.swift */; };
-		0F54081D29DDF3BA00D936DC /* SymbolsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081C29DDF3BA00D936DC /* SymbolsResponse.swift */; };
+		0F54081B29DDEEA600D936DC /* RateFluctuationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081A29DDEEA600D936DC /* RateFluctuationResponse.swift */; };
+		0F54081D29DDF3BA00D936DC /* CurrencySymbolResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081C29DDF3BA00D936DC /* CurrencySymbolResponse.swift */; };
 		0F54081F29DDF73400D936DC /* TimeseriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54081E29DDF73400D936DC /* TimeseriesResponse.swift */; };
 		0F54082129DDF9F700D936DC /* RateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082029DDF9F700D936DC /* RateStore.swift */; };
-		0F54082329DDFCA200D936DC /* SymbolStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082229DDFCA200D936DC /* SymbolStore.swift */; };
+		0F54082329DDFCA200D936DC /* CurrencySymbolStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082229DDFCA200D936DC /* CurrencySymbolStore.swift */; };
 		0F54082629DE023000D936DC /* DataProviderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082529DE023000D936DC /* DataProviderManager.swift */; };
 		0F54082929DE02EB00D936DC /* FluctuationDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082829DE02EB00D936DC /* FluctuationDataProvider.swift */; };
 		0F54082B29DE1A5000D936DC /* TimeseriesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082A29DE1A5000D936DC /* TimeseriesDataProvider.swift */; };
-		0F54082E29DE1C1800D936DC /* SymbolsDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082D29DE1C1800D936DC /* SymbolsDataProvider.swift */; };
+		0F54082E29DE1C1800D936DC /* CurrencySymbolDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082D29DE1C1800D936DC /* CurrencySymbolDataProvider.swift */; };
 		0F54083029DF1CB000D936DC /* StoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54082F29DF1CB000D936DC /* StoreProtocol.swift */; };
-		0F54083329DF4B6D00D936DC /* FluctuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54083229DF4B6D00D936DC /* FluctuationView.swift */; };
+		0F54083329DF4B6D00D936DC /* RatesFluctuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54083229DF4B6D00D936DC /* RatesFluctuationView.swift */; };
 		0F54083529DF508800D936DC /* PeriodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54083429DF508800D936DC /* PeriodButton.swift */; };
 		0F54083829DF553A00D936DC /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F54083729DF553A00D936DC /* Double+.swift */; };
-		0FF65AEE29E5D401002A6B93 /* FluctuationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AED29E5D400002A6B93 /* FluctuationRowView.swift */; };
-		0FF65AF029E5E16F002A6B93 /* FluctuationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AEF29E5E16F002A6B93 /* FluctuationDetailView.swift */; };
+		0F6260652A43BB1C0077F438 /* FluctuationDetailPeriodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6260642A43BB1C0077F438 /* FluctuationDetailPeriodButton.swift */; };
+		0FDB3B2A2A41CEBC00A3877E /* BaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB3B292A41CEBC00A3877E /* BaseStore.swift */; };
+		0FDB3B2C2A41E58A00A3877E /* RatesFluctuationDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDB3B2B2A41E58A00A3877E /* RatesFluctuationDetailViewModel.swift */; };
+		0FF65AEE29E5D401002A6B93 /* RatesFluctuationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AED29E5D400002A6B93 /* RatesFluctuationRowView.swift */; };
+		0FF65AF029E5E16F002A6B93 /* RatesFluctuationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AEF29E5E16F002A6B93 /* RatesFluctuationDetailView.swift */; };
 		0FF65AF229E5EB4E002A6B93 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AF129E5EB4E002A6B93 /* String+.swift */; };
 		0FF65AF529E5EDD2002A6B93 /* TimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AF429E5EDD2002A6B93 /* TimeRange.swift */; };
 		0FF65AF729E5EE32002A6B93 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AF629E5EE32002A6B93 /* Date+.swift */; };
-		0FF65AF929E62A9D002A6B93 /* FluctuationChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AF829E62A9D002A6B93 /* FluctuationChartView.swift */; };
+		0FF65AF929E62A9D002A6B93 /* FluctuationDetailChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AF829E62A9D002A6B93 /* FluctuationDetailChartView.swift */; };
 		0FF65AFB29E62C33002A6B93 /* FluctuationComparationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AFA29E62C33002A6B93 /* FluctuationComparationView.swift */; };
-		0FF65AFD29E6327D002A6B93 /* ComparationGridButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AFC29E6327D002A6B93 /* ComparationGridButtonView.swift */; };
+		0FF65AFD29E6327D002A6B93 /* FluctuationDetailGridButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AFC29E6327D002A6B93 /* FluctuationDetailGridButtonView.swift */; };
 		0FF65AFF29E63D8D002A6B93 /* UINavigationController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65AFE29E63D8D002A6B93 /* UINavigationController+.swift */; };
-		0FF65B0129E64254002A6B93 /* FluctuationPeriodButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65B0029E64254002A6B93 /* FluctuationPeriodButtons.swift */; };
+		0FF65B0129E64254002A6B93 /* RatesFluctuationPeriodButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65B0029E64254002A6B93 /* RatesFluctuationPeriodButtons.swift */; };
 		0FF65B0329E6471F002A6B93 /* SymbolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF65B0229E6471F002A6B93 /* SymbolButton.swift */; };
-		0FFE1B9F29E6D90F00C43F99 /* BaseCurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1B9E29E6D90F00C43F99 /* BaseCurrencyView.swift */; };
+		0FFE1B9F29E6D90F00C43F99 /* BaseCurrencyFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1B9E29E6D90F00C43F99 /* BaseCurrencyFilterView.swift */; };
 		0FFE1BA129E72ACB00C43F99 /* MultiCurrencyFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1BA029E72ACB00C43F99 /* MultiCurrencyFilterView.swift */; };
+		0FFE1BA329E7338300C43F99 /* RateFluctuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1BA229E7338300C43F99 /* RateFluctuation.swift */; };
+		0FFE1BA529E733B000C43F99 /* CurrencySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1BA429E733B000C43F99 /* CurrencySymbol.swift */; };
+		0FFE1BA729E7342F00C43F99 /* HistoricalRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1BA629E7342F00C43F99 /* HistoricalRate.swift */; };
+		0FFE1BAB29E734FC00C43F99 /* BaseCurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1BAA29E734FC00C43F99 /* BaseCurrencyViewModel.swift */; };
+		0FFE1BB029E7367B00C43F99 /* RatesFluctuationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1BAF29E7367B00C43F99 /* RatesFluctuationViewModel.swift */; };
+		0FFE1BB329E736D500C43F99 /* MultiCurrencyFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFE1BB229E736D500C43F99 /* MultiCurrencyFilterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1698FC29E7833C00000595 /* RatesFluctuationRowTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesFluctuationRowTitleView.swift; sourceTree = "<group>"; };
 		0F5407FA29DDCA7400D936DC /* ExchangeRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5407FD29DDCA7400D936DC /* ExchangeRateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateApp.swift; sourceTree = "<group>"; };
 		0F5407FF29DDCA7400D936DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,32 +63,41 @@
 		0F54080F29DDCB4F00D936DC /* RatesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesAPI.swift; sourceTree = "<group>"; };
 		0F54081229DDCC2B00D936DC /* RatesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesRouter.swift; sourceTree = "<group>"; };
 		0F54081429DDCC3600D936DC /* SymbolsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsRouter.swift; sourceTree = "<group>"; };
-		0F54081A29DDEEA600D936DC /* FluctuationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationResponse.swift; sourceTree = "<group>"; };
-		0F54081C29DDF3BA00D936DC /* SymbolsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsResponse.swift; sourceTree = "<group>"; };
+		0F54081A29DDEEA600D936DC /* RateFluctuationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateFluctuationResponse.swift; sourceTree = "<group>"; };
+		0F54081C29DDF3BA00D936DC /* CurrencySymbolResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySymbolResponse.swift; sourceTree = "<group>"; };
 		0F54081E29DDF73400D936DC /* TimeseriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeseriesResponse.swift; sourceTree = "<group>"; };
 		0F54082029DDF9F700D936DC /* RateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateStore.swift; sourceTree = "<group>"; };
-		0F54082229DDFCA200D936DC /* SymbolStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolStore.swift; sourceTree = "<group>"; };
+		0F54082229DDFCA200D936DC /* CurrencySymbolStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySymbolStore.swift; sourceTree = "<group>"; };
 		0F54082529DE023000D936DC /* DataProviderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProviderManager.swift; sourceTree = "<group>"; };
 		0F54082829DE02EB00D936DC /* FluctuationDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationDataProvider.swift; sourceTree = "<group>"; };
 		0F54082A29DE1A5000D936DC /* TimeseriesDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeseriesDataProvider.swift; sourceTree = "<group>"; };
-		0F54082D29DE1C1800D936DC /* SymbolsDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsDataProvider.swift; sourceTree = "<group>"; };
+		0F54082D29DE1C1800D936DC /* CurrencySymbolDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySymbolDataProvider.swift; sourceTree = "<group>"; };
 		0F54082F29DF1CB000D936DC /* StoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreProtocol.swift; sourceTree = "<group>"; };
-		0F54083229DF4B6D00D936DC /* FluctuationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationView.swift; sourceTree = "<group>"; };
+		0F54083229DF4B6D00D936DC /* RatesFluctuationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesFluctuationView.swift; sourceTree = "<group>"; };
 		0F54083429DF508800D936DC /* PeriodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodButton.swift; sourceTree = "<group>"; };
 		0F54083729DF553A00D936DC /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
-		0FF65AED29E5D400002A6B93 /* FluctuationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationRowView.swift; sourceTree = "<group>"; };
-		0FF65AEF29E5E16F002A6B93 /* FluctuationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationDetailView.swift; sourceTree = "<group>"; };
+		0F6260642A43BB1C0077F438 /* FluctuationDetailPeriodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationDetailPeriodButton.swift; sourceTree = "<group>"; };
+		0FDB3B292A41CEBC00A3877E /* BaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseStore.swift; sourceTree = "<group>"; };
+		0FDB3B2B2A41E58A00A3877E /* RatesFluctuationDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesFluctuationDetailViewModel.swift; sourceTree = "<group>"; };
+		0FF65AED29E5D400002A6B93 /* RatesFluctuationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesFluctuationRowView.swift; sourceTree = "<group>"; };
+		0FF65AEF29E5E16F002A6B93 /* RatesFluctuationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesFluctuationDetailView.swift; sourceTree = "<group>"; };
 		0FF65AF129E5EB4E002A6B93 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		0FF65AF429E5EDD2002A6B93 /* TimeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRange.swift; sourceTree = "<group>"; };
 		0FF65AF629E5EE32002A6B93 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
-		0FF65AF829E62A9D002A6B93 /* FluctuationChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationChartView.swift; sourceTree = "<group>"; };
+		0FF65AF829E62A9D002A6B93 /* FluctuationDetailChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationDetailChartView.swift; sourceTree = "<group>"; };
 		0FF65AFA29E62C33002A6B93 /* FluctuationComparationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationComparationView.swift; sourceTree = "<group>"; };
-		0FF65AFC29E6327D002A6B93 /* ComparationGridButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparationGridButtonView.swift; sourceTree = "<group>"; };
+		0FF65AFC29E6327D002A6B93 /* FluctuationDetailGridButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationDetailGridButtonView.swift; sourceTree = "<group>"; };
 		0FF65AFE29E63D8D002A6B93 /* UINavigationController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+.swift"; sourceTree = "<group>"; };
-		0FF65B0029E64254002A6B93 /* FluctuationPeriodButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluctuationPeriodButtons.swift; sourceTree = "<group>"; };
+		0FF65B0029E64254002A6B93 /* RatesFluctuationPeriodButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesFluctuationPeriodButtons.swift; sourceTree = "<group>"; };
 		0FF65B0229E6471F002A6B93 /* SymbolButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolButton.swift; sourceTree = "<group>"; };
-		0FFE1B9E29E6D90F00C43F99 /* BaseCurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCurrencyView.swift; sourceTree = "<group>"; };
+		0FFE1B9E29E6D90F00C43F99 /* BaseCurrencyFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCurrencyFilterView.swift; sourceTree = "<group>"; };
 		0FFE1BA029E72ACB00C43F99 /* MultiCurrencyFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCurrencyFilterView.swift; sourceTree = "<group>"; };
+		0FFE1BA229E7338300C43F99 /* RateFluctuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateFluctuation.swift; sourceTree = "<group>"; };
+		0FFE1BA429E733B000C43F99 /* CurrencySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySymbol.swift; sourceTree = "<group>"; };
+		0FFE1BA629E7342F00C43F99 /* HistoricalRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalRate.swift; sourceTree = "<group>"; };
+		0FFE1BAA29E734FC00C43F99 /* BaseCurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCurrencyViewModel.swift; sourceTree = "<group>"; };
+		0FFE1BAF29E7367B00C43F99 /* RatesFluctuationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesFluctuationViewModel.swift; sourceTree = "<group>"; };
+		0FFE1BB229E736D500C43F99 /* MultiCurrencyFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiCurrencyFilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +131,16 @@
 		0F5407FC29DDCA7400D936DC /* ExchangeRate */ = {
 			isa = PBXGroup;
 			children = (
-				0FF65AF329E5EDC5002A6B93 /* Models */,
 				0F54083629DF552D00D936DC /* Extensions */,
+				0FF65AF329E5EDC5002A6B93 /* Models */,
 				0F54080D29DDCB1E00D936DC /* NetworkRepository */,
 				0F54080C29DDCB1800D936DC /* DataProviders */,
-				0F54083129DF4B5300D936DC /* Views */,
+				0F5407FF29DDCA7400D936DC /* ContentView.swift */,
+				0FF65AFA29E62C33002A6B93 /* FluctuationComparationView.swift */,
+				0FFE1BAD29E735D000C43F99 /* Fluctuation */,
+				0FFE1BAE29E7365300C43F99 /* FluctuationDetail */,
+				0FFE1BA929E734E100C43F99 /* BaseCurrency */,
+				0FFE1BB129E736C300C43F99 /* MultiCurrency */,
 				0F54080129DDCA7600D936DC /* Assets.xcassets */,
 				0F54080329DDCA7600D936DC /* ExchangeRate.entitlements */,
 				0F54080429DDCA7600D936DC /* Preview Content */,
@@ -135,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				0F54082529DE023000D936DC /* DataProviderManager.swift */,
-				0F54082D29DE1C1800D936DC /* SymbolsDataProvider.swift */,
+				0F54082D29DE1C1800D936DC /* CurrencySymbolDataProvider.swift */,
 				0F54082829DE02EB00D936DC /* FluctuationDataProvider.swift */,
 				0F54082A29DE1A5000D936DC /* TimeseriesDataProvider.swift */,
 			);
@@ -174,8 +199,9 @@
 			isa = PBXGroup;
 			children = (
 				0F54082029DDF9F700D936DC /* RateStore.swift */,
-				0F54082229DDFCA200D936DC /* SymbolStore.swift */,
+				0F54082229DDFCA200D936DC /* CurrencySymbolStore.swift */,
 				0F54082F29DF1CB000D936DC /* StoreProtocol.swift */,
+				0FDB3B292A41CEBC00A3877E /* BaseStore.swift */,
 			);
 			path = Stores;
 			sourceTree = "<group>";
@@ -183,30 +209,11 @@
 		0F54081929DDEE8D00D936DC /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				0F54081A29DDEEA600D936DC /* FluctuationResponse.swift */,
-				0F54081C29DDF3BA00D936DC /* SymbolsResponse.swift */,
+				0F54081A29DDEEA600D936DC /* RateFluctuationResponse.swift */,
+				0F54081C29DDF3BA00D936DC /* CurrencySymbolResponse.swift */,
 				0F54081E29DDF73400D936DC /* TimeseriesResponse.swift */,
 			);
 			path = Response;
-			sourceTree = "<group>";
-		};
-		0F54083129DF4B5300D936DC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				0F5407FF29DDCA7400D936DC /* ContentView.swift */,
-				0F54083229DF4B6D00D936DC /* FluctuationView.swift */,
-				0FFE1BA029E72ACB00C43F99 /* MultiCurrencyFilterView.swift */,
-				0FF65AED29E5D400002A6B93 /* FluctuationRowView.swift */,
-				0FF65AEF29E5E16F002A6B93 /* FluctuationDetailView.swift */,
-				0FF65AFC29E6327D002A6B93 /* ComparationGridButtonView.swift */,
-				0FF65AFA29E62C33002A6B93 /* FluctuationComparationView.swift */,
-				0F54083429DF508800D936DC /* PeriodButton.swift */,
-				0FF65B0229E6471F002A6B93 /* SymbolButton.swift */,
-				0FF65AF829E62A9D002A6B93 /* FluctuationChartView.swift */,
-				0FF65B0029E64254002A6B93 /* FluctuationPeriodButtons.swift */,
-				0FFE1B9E29E6D90F00C43F99 /* BaseCurrencyView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		0F54083629DF552D00D936DC /* Extensions */ = {
@@ -224,8 +231,71 @@
 			isa = PBXGroup;
 			children = (
 				0FF65AF429E5EDD2002A6B93 /* TimeRange.swift */,
+				0FFE1BA429E733B000C43F99 /* CurrencySymbol.swift */,
+				0FFE1BA229E7338300C43F99 /* RateFluctuation.swift */,
+				0FFE1BA629E7342F00C43F99 /* HistoricalRate.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0FFE1BA929E734E100C43F99 /* BaseCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				0FFE1B9E29E6D90F00C43F99 /* BaseCurrencyFilterView.swift */,
+				0FFE1BAA29E734FC00C43F99 /* BaseCurrencyViewModel.swift */,
+			);
+			path = BaseCurrency;
+			sourceTree = "<group>";
+		};
+		0FFE1BAC29E735BA00C43F99 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				0FF65AED29E5D400002A6B93 /* RatesFluctuationRowView.swift */,
+				0F1698FC29E7833C00000595 /* RatesFluctuationRowTitleView.swift */,
+				0F54083429DF508800D936DC /* PeriodButton.swift */,
+				0FF65B0229E6471F002A6B93 /* SymbolButton.swift */,
+				0FF65B0029E64254002A6B93 /* RatesFluctuationPeriodButtons.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		0FFE1BAD29E735D000C43F99 /* Fluctuation */ = {
+			isa = PBXGroup;
+			children = (
+				0F54083229DF4B6D00D936DC /* RatesFluctuationView.swift */,
+				0FFE1BAF29E7367B00C43F99 /* RatesFluctuationViewModel.swift */,
+				0FFE1BAC29E735BA00C43F99 /* Subviews */,
+			);
+			path = Fluctuation;
+			sourceTree = "<group>";
+		};
+		0FFE1BAE29E7365300C43F99 /* FluctuationDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0FF65AEF29E5E16F002A6B93 /* RatesFluctuationDetailView.swift */,
+				0FDB3B2B2A41E58A00A3877E /* RatesFluctuationDetailViewModel.swift */,
+				0FFE1BB429E7370000C43F99 /* Subviews */,
+			);
+			path = FluctuationDetail;
+			sourceTree = "<group>";
+		};
+		0FFE1BB129E736C300C43F99 /* MultiCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				0FFE1BA029E72ACB00C43F99 /* MultiCurrencyFilterView.swift */,
+				0FFE1BB229E736D500C43F99 /* MultiCurrencyFilterViewModel.swift */,
+			);
+			path = MultiCurrency;
+			sourceTree = "<group>";
+		};
+		0FFE1BB429E7370000C43F99 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				0FF65AF829E62A9D002A6B93 /* FluctuationDetailChartView.swift */,
+				0FF65AFC29E6327D002A6B93 /* FluctuationDetailGridButtonView.swift */,
+				0F6260642A43BB1C0077F438 /* FluctuationDetailPeriodButton.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,34 +370,44 @@
 			files = (
 				0FF65AF729E5EE32002A6B93 /* Date+.swift in Sources */,
 				0FF65AF229E5EB4E002A6B93 /* String+.swift in Sources */,
-				0F54081D29DDF3BA00D936DC /* SymbolsResponse.swift in Sources */,
+				0FDB3B2A2A41CEBC00A3877E /* BaseStore.swift in Sources */,
+				0F54081D29DDF3BA00D936DC /* CurrencySymbolResponse.swift in Sources */,
 				0F54081529DDCC3600D936DC /* SymbolsRouter.swift in Sources */,
 				0F54081329DDCC2B00D936DC /* RatesRouter.swift in Sources */,
-				0FF65B0129E64254002A6B93 /* FluctuationPeriodButtons.swift in Sources */,
+				0FF65B0129E64254002A6B93 /* RatesFluctuationPeriodButtons.swift in Sources */,
 				0F54082629DE023000D936DC /* DataProviderManager.swift in Sources */,
+				0F1698FD29E7833C00000595 /* RatesFluctuationRowTitleView.swift in Sources */,
 				0FF65AFF29E63D8D002A6B93 /* UINavigationController+.swift in Sources */,
 				0F54083529DF508800D936DC /* PeriodButton.swift in Sources */,
 				0FF65AFB29E62C33002A6B93 /* FluctuationComparationView.swift in Sources */,
+				0FFE1BA329E7338300C43F99 /* RateFluctuation.swift in Sources */,
 				0F54080029DDCA7400D936DC /* ContentView.swift in Sources */,
 				0F54082129DDF9F700D936DC /* RateStore.swift in Sources */,
 				0F5407FE29DDCA7400D936DC /* ExchangeRateApp.swift in Sources */,
 				0FFE1BA129E72ACB00C43F99 /* MultiCurrencyFilterView.swift in Sources */,
-				0F54082329DDFCA200D936DC /* SymbolStore.swift in Sources */,
-				0F54082E29DE1C1800D936DC /* SymbolsDataProvider.swift in Sources */,
+				0F54082329DDFCA200D936DC /* CurrencySymbolStore.swift in Sources */,
+				0F54082E29DE1C1800D936DC /* CurrencySymbolDataProvider.swift in Sources */,
+				0FFE1BA529E733B000C43F99 /* CurrencySymbol.swift in Sources */,
 				0F54083829DF553A00D936DC /* Double+.swift in Sources */,
-				0FF65AFD29E6327D002A6B93 /* ComparationGridButtonView.swift in Sources */,
+				0FFE1BB029E7367B00C43F99 /* RatesFluctuationViewModel.swift in Sources */,
+				0FFE1BAB29E734FC00C43F99 /* BaseCurrencyViewModel.swift in Sources */,
+				0FF65AFD29E6327D002A6B93 /* FluctuationDetailGridButtonView.swift in Sources */,
 				0FF65AF529E5EDD2002A6B93 /* TimeRange.swift in Sources */,
-				0FF65AEE29E5D401002A6B93 /* FluctuationRowView.swift in Sources */,
-				0F54083329DF4B6D00D936DC /* FluctuationView.swift in Sources */,
-				0FF65AF929E62A9D002A6B93 /* FluctuationChartView.swift in Sources */,
+				0FF65AEE29E5D401002A6B93 /* RatesFluctuationRowView.swift in Sources */,
+				0F54083329DF4B6D00D936DC /* RatesFluctuationView.swift in Sources */,
+				0FF65AF929E62A9D002A6B93 /* FluctuationDetailChartView.swift in Sources */,
 				0F54081029DDCB4F00D936DC /* RatesAPI.swift in Sources */,
-				0FF65AF029E5E16F002A6B93 /* FluctuationDetailView.swift in Sources */,
+				0FF65AF029E5E16F002A6B93 /* RatesFluctuationDetailView.swift in Sources */,
 				0F54082B29DE1A5000D936DC /* TimeseriesDataProvider.swift in Sources */,
-				0FFE1B9F29E6D90F00C43F99 /* BaseCurrencyView.swift in Sources */,
+				0FFE1BA729E7342F00C43F99 /* HistoricalRate.swift in Sources */,
+				0FFE1B9F29E6D90F00C43F99 /* BaseCurrencyFilterView.swift in Sources */,
 				0F54083029DF1CB000D936DC /* StoreProtocol.swift in Sources */,
-				0F54081B29DDEEA600D936DC /* FluctuationResponse.swift in Sources */,
+				0F54081B29DDEEA600D936DC /* RateFluctuationResponse.swift in Sources */,
 				0FF65B0329E6471F002A6B93 /* SymbolButton.swift in Sources */,
+				0FDB3B2C2A41E58A00A3877E /* RatesFluctuationDetailViewModel.swift in Sources */,
+				0FFE1BB329E736D500C43F99 /* MultiCurrencyFilterViewModel.swift in Sources */,
 				0F54081F29DDF73400D936DC /* TimeseriesResponse.swift in Sources */,
+				0F6260652A43BB1C0077F438 /* FluctuationDetailPeriodButton.swift in Sources */,
 				0F54082929DE02EB00D936DC /* FluctuationDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

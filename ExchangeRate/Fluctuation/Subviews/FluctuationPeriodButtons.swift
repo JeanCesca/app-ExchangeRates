@@ -30,7 +30,7 @@ enum PeriodSelected: String {
 }
 
 
-struct FluctuationPeriodButtons: View {
+struct RatesFluctuationPeriodButtons: View {
 
     @Binding var selection: PeriodSelected
         
@@ -50,6 +50,6 @@ struct FluctuationPeriodButtons: View {
 
 struct FluctuationPeriodButtons_Previews: PreviewProvider {
     static var previews: some View {
-        FluctuationPeriodButtons(selection: .constant(.oneDay))
+        RatesFluctuationPeriodButtons(selection: .constant(.oneDay))
     }
 }

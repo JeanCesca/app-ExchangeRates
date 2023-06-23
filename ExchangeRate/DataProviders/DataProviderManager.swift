@@ -19,6 +19,7 @@ extension DataProviderManagerDelegate {
     }
 
     func errorData(provider: DataProviderManagerDelegate?, error: Error) {
+        print("Erro no timeseries dataprovider: \(error)")
         print(error.localizedDescription)
     }
 }

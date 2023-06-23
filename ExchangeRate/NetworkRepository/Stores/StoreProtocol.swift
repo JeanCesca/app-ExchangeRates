@@ -17,9 +17,10 @@ extension StoreProtocol {
         let (data, response) = try await URLSession.shared.data(for: urlRequest)
         
         guard data == data,
-              let response = response as? HTTPURLResponse,
-              (200 ..< 300) ~= response.statusCode else {
-            print("BAR URL GERAL")
+              let response = response as? HTTPURLResponse, (200...300).contains(response.statusCode) else {
+            let response = response as? HTTPURLResponse
+            print(response?.statusCode)
+            print("BAR URL GERAL \(response)")
             throw URLError(.badServerResponse)
         }
         

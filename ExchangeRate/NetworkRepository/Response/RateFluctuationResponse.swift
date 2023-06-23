@@ -7,12 +7,12 @@
 
 import Foundation
 
-typealias FluctuationRates = [String: RateValues]
+typealias RatesFluctuation = [String: RateFluctuationValues]
 
-struct FluctuationResponse: Codable {
+struct RateFluctuationResponse: Codable {
     let success, fluctuation: Bool
     let startDate, endDate, base: String
-    let rates: FluctuationRates
+    let rates: RatesFluctuation
 
     enum CodingKeys: String, CodingKey {
         case success, fluctuation
@@ -22,7 +22,7 @@ struct FluctuationResponse: Codable {
     }
 }
 
-struct RateValues: Codable {
+struct RateFluctuationValues: Codable {
     let startRate, endRate, change, changePct: Double
 
     enum CodingKeys: String, CodingKey {

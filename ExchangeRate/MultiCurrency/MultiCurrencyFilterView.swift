@@ -7,34 +7,28 @@
 
 import SwiftUI
 
-class CurrencySelectionFilterViewModel: ObservableObject {
-    
-    @Published var symbols: [Symbol] = [
-        Symbol(symbol: "BRL", fullName: "Brazilian Real"),
-        Symbol(symbol: "EUR", fullName: "Euro"),
-        Symbol(symbol: "GBP", fullName: "British Pound Sterling"),
-        Symbol(symbol: "JPY", fullName: "Japanese Yen"),
-        Symbol(symbol: "USD", fullName: "United States Dollar")
-    ]
-    
+protocol MultiCurrencyFilterViewDelegate {
+    func didSelected(_ currencies: [String])
 }
 
 struct MultiCurrencyFilterView: View {
     
     @Environment(\.dismiss) var dismiss
     
-    @State var vm = CurrencySelectionFilterViewModel()
+    @StateObject var vm = MultiCurrencyFilterViewModel()
     
     @State private var searchText: String = ""
     @State private var selections: [String] = []
     
-    var searchResults: [Symbol] {
+    var delegate: MultiCurrencyFilterViewDelegate?
+    
+    var searchResults: [CurrencySymbol] {
         if searchText.isEmpty {
-            return vm.symbols
+            return vm.currencySymbols
         } else {
-            return vm.symbols.filter({
+            return vm.currencySymbols.filter({
                 $0.symbol.contains(searchText.uppercased()) ||
-                $0.fullName.contains(searchText.uppercased())
+                $0.symbol.contains(searchText.uppercased())
             })
         }
     }
@@ -42,6 +36,9 @@ struct MultiCurrencyFilterView: View {
     var body: some View {
         NavigationStack {
             currenciesListView
+        }
+        .onAppear {
+            vm.doFetchMultiCurrencySymbols()
         }
     }
     
@@ -81,12 +78,14 @@ struct MultiCurrencyFilterView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
+                    self.delegate?.didSelected(selections)
                     self.dismiss()
                 } label: {
-                    Text("OK")
+                    Text(
+                        selections.isEmpty ? "Cancelar" : "OK"
+                    )
                         .bold()
                 }
-
             }
         }
     }

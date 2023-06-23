@@ -7,7 +7,7 @@
 
 import Foundation
 
-typealias TimeseriesRate = [String: TimeseriesRateValues]
+typealias TimeseriesRate = [String: TimeseriesRateValues] //period $0 - String // rates $1 - TimeseriesRateValues
 typealias TimeseriesRateValues = [String: Double]
 
 struct TimeseriesResponse: Codable {

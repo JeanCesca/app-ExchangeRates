@@ -8,16 +8,16 @@
 import SwiftUI
 import Charts
 
-struct FluctuationChartView: View {
+struct FluctuationDetailChartView: View {
     
-    @StateObject var vm: FluctuationDetailViewModel
+    @StateObject var vm: RatesFluctuationDetailViewModel
     
     var body: some View {
         lineChartView
     }
     
     private var lineChartView: some View {
-        Chart(vm.chartComparations) { item in
+        Chart(vm.historicalRates) { item in
             LineMark(
                 x: .value("Período", item.period),
                 y: .value("Taxas", item.endRate))
@@ -38,7 +38,7 @@ struct FluctuationChartView: View {
             }
         }
         .chartXAxis(content: {
-            AxisMarks(preset: .aligned) { date in
+            AxisMarks(preset: .aligned, values: .stride(by: vm.xAxisStride, count: vm.xAxisStrideCount)) { date in
                 AxisGridLine()
                 AxisValueLabel(vm.xAxisLabelFormatStyle(for: date.as(Date.self) ?? Date()))
             }
@@ -55,8 +55,8 @@ struct FluctuationChartView: View {
     }
 }
 
-struct FluctuationChartView_Previews: PreviewProvider {
+struct FluctuationDetailChartView_Previews: PreviewProvider {
     static var previews: some View {
-        FluctuationChartView(vm: FluctuationDetailViewModel())
+        FluctuationDetailChartView(vm: RatesFluctuationDetailViewModel())
     }
 }

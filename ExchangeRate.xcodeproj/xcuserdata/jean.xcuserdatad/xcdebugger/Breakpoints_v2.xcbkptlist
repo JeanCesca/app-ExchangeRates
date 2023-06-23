@@ -14,9 +14,436 @@
             filePath = "ExchangeRate/Views/BaseCurrencyView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "filter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60371972-DD57-4C1F-9ED7-80D633FF0C07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/NetworkRepository/Stores/CurrencySymbolStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchSymbols()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "60371972-DD57-4C1F-9ED7-80D633FF0C07 - fe43aad27e4fafed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ExchangeRate.CurrencySymbolStore.fetchSymbols() async throws -&gt; ExchangeRate.CurrencySymbolResponse"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/NetworkRepository/Stores/CurrencySymbolStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "60371972-DD57-4C1F-9ED7-80D633FF0C07 - 4f9656e798eb9cbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for ExchangeRate.CurrencySymbolStore.fetchSymbols() async throws -&gt; ExchangeRate.CurrencySymbolResponse"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/NetworkRepository/Stores/CurrencySymbolStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "60371972-DD57-4C1F-9ED7-80D633FF0C07 - 4e35bdaeee44e3ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ExchangeRate.CurrencySymbolStore.fetchSymbols() async throws -&gt; ExchangeRate.CurrencySymbolResponse"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/NetworkRepository/Stores/CurrencySymbolStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "60371972-DD57-4C1F-9ED7-80D633FF0C07 - 96008824a6385de8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ExchangeRate.CurrencySymbolStore.fetchSymbols() async throws -&gt; ExchangeRate.CurrencySymbolResponse"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/NetworkRepository/Stores/CurrencySymbolStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8196A048-E861-4882-B92A-B6B4B7AB49DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/NetworkRepository/Stores/CurrencySymbolStore.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "fetchSymbols()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8196A048-E861-4882-B92A-B6B4B7AB49DF - 6dca7e376924f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExchangeRate.CurrencySymbolStore.fetchSymbols() async throws -&gt; ExchangeRate.CurrencySymbolResponse"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/NetworkRepository/Stores/CurrencySymbolStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "8196A048-E861-4882-B92A-B6B4B7AB49DF - fe43aad27e4facab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ExchangeRate.CurrencySymbolStore.fetchSymbols() async throws -&gt; ExchangeRate.CurrencySymbolResponse"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/NetworkRepository/Stores/CurrencySymbolStore.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8323E2F0-D647-4197-989F-218B6DBC9754"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/FluctuationDetail/RatesFluctuationDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "success(model:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8323E2F0-D647-4197-989F-218B6DBC9754 - f6713737379004d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in ExchangeRate.RatesFluctuationDetailViewModel.success(model: Swift.Array&lt;ExchangeRate.HistoricalRate&gt;) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/FluctuationDetail/RatesFluctuationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "8323E2F0-D647-4197-989F-218B6DBC9754 - 217e6e28fa9f14f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ExchangeRate.HistoricalRate, ExchangeRate.HistoricalRate) -&gt; Swift.Bool in closure #1 @Swift.MainActor () -&gt; () in ExchangeRate.RatesFluctuationDetailViewModel.success(model: Swift.Array&lt;ExchangeRate.HistoricalRate&gt;) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/FluctuationDetail/RatesFluctuationDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A151AC94-1479-4C3C-B4BC-C074E98FA521"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/FluctuationDetail/RatesFluctuationDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "success(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4FE325E-BC0E-4A6A-9489-E184969394D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/FluctuationDetail/RatesFluctuationDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "RatesFluctuationDetailViewModel"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDA6493C-7BE9-4246-BE0B-A4F99957AD7D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/FluctuationDetail/RatesFluctuationDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "success(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC60EDB5-10F2-44A0-BC6C-31C84CA49594"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchTimeseries(base:symbol:startDate:endDate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AC60EDB5-10F2-44A0-BC6C-31C84CA49594 - f631b376d2ae9173"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ExchangeRate.TimeseriesDataProvider.fetchTimeseries(base: Swift.String, symbol: Swift.String, startDate: Swift.String, endDate: Swift.String) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "AC60EDB5-10F2-44A0-BC6C-31C84CA49594 - c71574538b9beaa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Swift.Dictionary&lt;Swift.String, Swift.Double&gt;) -&gt; Swift.Array&lt;Swift.Array&lt;ExchangeRate.HistoricalRate&gt;&gt; in closure #1 @Sendable () async -&gt; () in ExchangeRate.TimeseriesDataProvider.fetchTimeseries(base: Swift.String, symbol: Swift.String, startDate: Swift.String, endDate: Swift.String) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84C98E6C-4722-46EB-9DB2-A1508C2E6578"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchTimeseries(base:symbol:startDate:endDate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "84C98E6C-4722-46EB-9DB2-A1508C2E6578 - b8aeafa19168c245"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ExchangeRate.TimeseriesDataProvider.fetchTimeseries(base: Swift.String, symbol: Swift.String, startDate: Swift.String, endDate: Swift.String) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "84C98E6C-4722-46EB-9DB2-A1508C2E6578 - 7ae9f4a9b640bfa6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in ExchangeRate.TimeseriesDataProvider.fetchTimeseries(base: Swift.String, symbol: Swift.String, startDate: Swift.String, endDate: Swift.String) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "84C98E6C-4722-46EB-9DB2-A1508C2E6578 - f631b376d2ae964b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ExchangeRate.TimeseriesDataProvider.fetchTimeseries(base: Swift.String, symbol: Swift.String, startDate: Swift.String, endDate: Swift.String) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "84C98E6C-4722-46EB-9DB2-A1508C2E6578 - 4acbca9ebd0f4054"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ExchangeRate.TimeseriesDataProvider.fetchTimeseries(base: Swift.String, symbol: Swift.String, startDate: Swift.String, endDate: Swift.String) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97FBEE74-769F-48FB-88E0-C7836EE0D24C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchTimeseries(base:symbol:startDate:endDate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "97FBEE74-769F-48FB-88E0-C7836EE0D24C - f631b376d2ae909c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ExchangeRate.TimeseriesDataProvider.fetchTimeseries(base: Swift.String, symbol: Swift.String, startDate: Swift.String, endDate: Swift.String) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "97FBEE74-769F-48FB-88E0-C7836EE0D24C - 4acbca9ebd0f4683"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ExchangeRate.TimeseriesDataProvider.fetchTimeseries(base: Swift.String, symbol: Swift.String, startDate: Swift.String, endDate: Swift.String) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "97FBEE74-769F-48FB-88E0-C7836EE0D24C - 4acbca9ebd0f4683"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in ExchangeRate.TimeseriesDataProvider.fetchTimeseries(base: Swift.String, symbol: Swift.String, startDate: Swift.String, endDate: Swift.String) -&gt; ()"
+                  moduleName = "ExchangeRate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jean/Desktop/Dio/ExchangeRate/ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "880BCF19-C0A8-4730-943D-3500AC417C22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExchangeRate/DataProviders/TimeseriesDataProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchTimeseries(base:symbol:startDate:endDate:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

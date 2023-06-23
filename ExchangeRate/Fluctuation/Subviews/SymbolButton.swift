@@ -10,12 +10,13 @@ import SwiftUI
 struct SymbolButton: View {
     
     @State var action: () -> Void
-    @State var title: String
-    @State var color: Color
+    @Binding var title: String?
+    
+    let color: Color
     
     var body: some View {
         Button(action: action) {
-            Text(title)
+            Text(title ?? "")
                 .font(.callout)
                 .bold()
                 .frame(width: 50, height: 30)
@@ -30,6 +31,6 @@ struct SymbolButton: View {
 
 struct SymbolButton_Previews: PreviewProvider {
     static var previews: some View {
-        SymbolButton(action: {}, title: "BRL", color: .white)
+        SymbolButton(action: {}, title: .constant("BRL"), color: .white)
     }
 }

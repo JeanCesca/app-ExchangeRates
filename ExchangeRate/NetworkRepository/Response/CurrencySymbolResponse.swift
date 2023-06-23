@@ -9,7 +9,7 @@ import Foundation
 
 typealias Symbols = [String: String]
 
-struct SymbolsResponse: Codable {
+struct CurrencySymbolResponse: Codable {
     let success: Bool
     let symbols: Symbols
 }
